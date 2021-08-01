@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lido:lido xmlns:gml="http://www.opengis.net/gml"
+           xmlns:lido="http://www.lido-schema.org"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.lido-schema.org http://www.lido-schema.org/schema/v1.0/lido-v1.0.xsd">
+   <lido:lidoRecID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">record_naniweb_463207</lido:lidoRecID>
+   <lido:objectPublishedID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://sammlungen.uni-goettingen.de/objekt/record_naniweb_463207</lido:objectPublishedID>
+   <lido:objectPublishedID lido:type="http://terminology.lido-schema.org/identifier_type/uri">https://hdl.handle.net/21.11107/d681936b-b14d-4051-aa45-95fc8ff6e898</lido:objectPublishedID>
+   <lido:category>
+      <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://www.cidoc-crm.org/crm-concepts/#E22</lido:conceptID>
+      <lido:term xml:lang="en">Man-Made Object</lido:term>
+   </lido:category>
+   <lido:descriptiveMetadata xml:lang="de">
+      <lido:objectClassificationWrap>
+         <lido:objectWorkTypeWrap>
+            <lido:objectWorkType>
+               <lido:conceptID lido:type="URI">http://portal.wissenschaftliche-sammlungen.de/ObjectGenre/251</lido:conceptID>
+               <lido:term>Lehrtafel</lido:term>
+            </lido:objectWorkType>
+         </lido:objectWorkTypeWrap>
+      </lido:objectClassificationWrap>
+      <lido:objectIdentificationWrap>
+         <lido:titleWrap>
+            <lido:titleSet lido:sortorder="1">
+               <lido:appellationValue>Grossblättriger Sagobaum</lido:appellationValue>
+            </lido:titleSet>
+            <lido:titleSet lido:type="other">
+               <lido:appellationValue xml:lang="la">Cycas circinalis L.</lido:appellationValue>
+            </lido:titleSet>
+         </lido:titleWrap>
+         <lido:repositoryWrap>
+            <lido:repositorySet lido:type="http://terminology.lido-schema.org/repositorySet_type/current_repository_or_location">
+               <lido:repositoryName>
+                  <lido:legalBodyID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://ld.zdb-services.de/resource/organisations/DE-MUS-106029</lido:legalBodyID>
+                  <lido:legalBodyName>
+                     <lido:appellationValue>Georg-August-Universität Göttingen / Zentrale Kustodie</lido:appellationValue>
+                  </lido:legalBodyName>
+                  <lido:legalBodyWeblink>https://www.uni-goettingen.de/de/440706.html</lido:legalBodyWeblink>
+               </lido:repositoryName>
+               <lido:workID>ZiBo_II_1</lido:workID>
+               <lido:repositoryLocation>
+                  <lido:namePlaceSet>
+                     <lido:appellationValue>Zentrale Kustodie</lido:appellationValue>
+                  </lido:namePlaceSet>
+                  <lido:gml>
+                     <gml:Point>
+                        <gml:pos>51.53803 9.93484</gml:pos>
+                     </gml:Point>
+                  </lido:gml>
+                  <lido:partOfPlace>
+                     <lido:placeID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://sws.geonames.org/2918632/</lido:placeID>
+                     <lido:namePlaceSet>
+                        <lido:appellationValue/>
+                     </lido:namePlaceSet>
+                     <lido:gml>
+                        <gml:Point>
+                           <gml:pos>51.53443 9.93228</gml:pos>
+                        </gml:Point>
+                     </lido:gml>
+                  </lido:partOfPlace>
+               </lido:repositoryLocation>
+            </lido:repositorySet>
+         </lido:repositoryWrap>
+      </lido:objectIdentificationWrap>
+      <lido:eventWrap>
+         <lido:eventSet>
+            <lido:event>
+               <lido:eventType>
+                  <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://terminology.lido-schema.org/eventType/production</lido:conceptID>
+                  <lido:term xml:lang="en">Production</lido:term>
+                  <lido:term>Herstellung</lido:term>
+               </lido:eventType>
+               <lido:eventActor>
+                  <lido:displayActorInRole>Friedr. Vieweg und Sohn (Hersteller, Verlag)</lido:displayActorInRole>
+                  <lido:actorInRole>
+                     <lido:actor lido:type="http://terminology.lido-schema.org/lido00413">
+                        <lido:actorID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://d-nb.info/gnd/2010996-9</lido:actorID>
+                        <lido:nameActorSet>
+                           <lido:appellationValue>Friedr. Vieweg und Sohn</lido:appellationValue>
+                        </lido:nameActorSet>
+                     </lido:actor>
+                     <lido:roleActor>
+                        <lido:term>Hersteller</lido:term>
+                     </lido:roleActor>
+                  </lido:actorInRole>
+               </lido:eventActor>
+               <lido:eventActor>
+                  <lido:displayActorInRole>Zippel, Hermann (wissenschaftlicher Bearbeiter, Botaniker, Herausgeber)</lido:displayActorInRole>
+                  <lido:actorInRole>
+                     <lido:actor lido:type="http://terminology.lido-schema.org/lido00163">
+                        <lido:nameActorSet>
+                           <lido:appellationValue>Zippel, Hermann</lido:appellationValue>
+                        </lido:nameActorSet>
+                     </lido:actor>
+                     <lido:roleActor>
+                        <lido:term>wissenschaftlicher Bearbeiter</lido:term>
+                     </lido:roleActor>
+                  </lido:actorInRole>
+               </lido:eventActor>
+               <lido:eventActor>
+                  <lido:displayActorInRole>Bollmann, Carl (wissenschaftlicher Bearbeiter, Zeichner)</lido:displayActorInRole>
+                  <lido:actorInRole>
+                     <lido:actor lido:type="http://terminology.lido-schema.org/lido00163">
+                        <lido:nameActorSet>
+                           <lido:appellationValue>Bollmann, Carl</lido:appellationValue>
+                        </lido:nameActorSet>
+                     </lido:actor>
+                     <lido:roleActor>
+                        <lido:term>wissenschaftlicher Bearbeiter</lido:term>
+                     </lido:roleActor>
+                  </lido:actorInRole>
+               </lido:eventActor>
+            </lido:event>
+         </lido:eventSet>
+      </lido:eventWrap>
+      <lido:objectRelationWrap>
+         <lido:relatedWorksWrap>
+            <lido:relatedWorkSet>
+               <lido:relatedWork>
+                  <lido:displayObject>H.  Zippel, „Ausländische Kulturpflanzen in farbigen Wandtafeln“. Vieweg, Braunschweig, 1899. (In welcher Auflage die hier vorliegenden Tafeln gehören ist nicht bekannt bzw. müsste überprüft werden.
+Die Tafeln sind aus den Abteilungen 1, 2 und 3. Der beschreibende Text ist nicht vorhanden.)</lido:displayObject>
+                  <lido:object>
+                     <lido:objectWebResource lido:formatResource="text/html">http://gso.gbv.de/DB=2.1/PPNSET?PPN=031236707</lido:objectWebResource>
+                     <lido:objectID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://uri.gbv.de/document/gvk:ppn:031236707</lido:objectID>
+                     <lido:objectNote lido:type="description">H.  Zippel, „Ausländische Kulturpflanzen in farbigen Wandtafeln“. Vieweg, Braunschweig, 1899.</lido:objectNote>
+                  </lido:object>
+               </lido:relatedWork>
+               <lido:relatedWorkRelType>
+                  <lido:term>Beschrieben in</lido:term>
+               </lido:relatedWorkRelType>
+            </lido:relatedWorkSet>
+            <lido:relatedWorkSet>
+               <lido:relatedWork>
+                  <lido:displayObject>H.  Zippel, „Ausländische Kulturpflanzen in farbigen Wandtafeln“. Vieweg, Braunschweig, 1899. (In welcher Auflage die hier vorliegenden Tafeln gehören ist nicht bekannt bzw. müsste überprüft werden.
+Die Tafeln sind aus den Abteilungen 1, 2 und 3. Der beschreibende Text ist nicht vorhanden.)</lido:displayObject>
+                  <lido:object>
+                     <lido:objectWebResource lido:formatResource="text/html">http://gso.gbv.de/DB=2.1/PPNSET?PPN=405238711</lido:objectWebResource>
+                     <lido:objectID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://uri.gbv.de/document/gvk:ppn:405238711</lido:objectID>
+                     <lido:objectNote lido:type="description">H.  Zippel, „Ausländische Kulturpflanzen in farbigen Wandtafeln“. Vieweg, Braunschweig, 1899.</lido:objectNote>
+                  </lido:object>
+               </lido:relatedWork>
+               <lido:relatedWorkRelType>
+                  <lido:term>Beschrieben in</lido:term>
+               </lido:relatedWorkRelType>
+            </lido:relatedWorkSet>
+            <lido:relatedWorkSet>
+               <lido:relatedWork>
+                  <lido:displayObject>H.  Zippel, „Ausländische Kulturpflanzen in farbigen Wandtafeln“. Vieweg, Braunschweig, 1899. (Zu welcher Auflage die hier vorliegenden Tafeln gehören ist nicht bekannt bzw. müsste überprüft werden.
+Die Tafeln sind aus den Abteilungen 1, 2 und 3. Der beschreibende Text ist nicht vorhanden.)</lido:displayObject>
+                  <lido:object>
+                     <lido:objectWebResource lido:formatResource="text/html">http://gso.gbv.de/DB=2.1/PPNSET?PPN=031236707</lido:objectWebResource>
+                     <lido:objectID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://uri.gbv.de/document/gvk:ppn:031236707</lido:objectID>
+                     <lido:objectNote lido:type="description">H.  Zippel, „Ausländische Kulturpflanzen in farbigen Wandtafeln“. Vieweg, Braunschweig, 1899.</lido:objectNote>
+                  </lido:object>
+               </lido:relatedWork>
+               <lido:relatedWorkRelType>
+                  <lido:term>Beschrieben in</lido:term>
+               </lido:relatedWorkRelType>
+            </lido:relatedWorkSet>
+            <lido:relatedWorkSet>
+               <lido:relatedWork>
+                  <lido:displayObject>H.  Zippel, „Ausländische Kulturpflanzen in farbigen Wandtafeln“. Vieweg, Braunschweig, 1899. (Zu welcher Auflage die hier vorliegenden Tafeln gehören ist nicht bekannt bzw. müsste überprüft werden.
+Die Tafeln sind aus den Abteilungen 1, 2 und 3. Der beschreibende Text ist nicht vorhanden.)</lido:displayObject>
+                  <lido:object>
+                     <lido:objectWebResource lido:formatResource="text/html">http://gso.gbv.de/DB=2.1/PPNSET?PPN=405238711</lido:objectWebResource>
+                     <lido:objectID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://uri.gbv.de/document/gvk:ppn:405238711</lido:objectID>
+                     <lido:objectNote lido:type="description">H.  Zippel, „Ausländische Kulturpflanzen in farbigen Wandtafeln“. Vieweg, Braunschweig, 1899.</lido:objectNote>
+                  </lido:object>
+               </lido:relatedWork>
+               <lido:relatedWorkRelType>
+                  <lido:term>Beschrieben in</lido:term>
+               </lido:relatedWorkRelType>
+            </lido:relatedWorkSet>
+            <lido:relatedWorkSet>
+               <lido:relatedWork>
+                  <lido:displayObject>Botanische Lehrtafeln</lido:displayObject>
+                  <lido:object>
+                     <lido:objectID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier"
+                                    lido:source="Digitale Sammlung - Kulturerbe Niedersachsen">slg_1053</lido:objectID>
+                     <lido:objectNote lido:type="title">Botanische Lehrtafeln</lido:objectNote>
+                  </lido:object>
+               </lido:relatedWork>
+               <lido:relatedWorkRelType>
+                  <lido:term xml:lang="en">collection</lido:term>
+                  <lido:term>Sammlung</lido:term>
+               </lido:relatedWorkRelType>
+            </lido:relatedWorkSet>
+            <lido:relatedWorkSet>
+               <lido:relatedWork>
+                  <lido:object>
+                     <lido:objectWebResource lido:formatResource="text/html">http://resolver.sub.uni-goettingen.de/purl?PPN574950885</lido:objectWebResource>
+                  </lido:object>
+               </lido:relatedWork>
+               <lido:relatedWorkRelType>
+                  <lido:term>im Zusammenhang mit dem Objekt</lido:term>
+               </lido:relatedWorkRelType>
+            </lido:relatedWorkSet>
+            <lido:relatedWorkSet>
+               <lido:relatedWork>
+                  <lido:object>
+                     <lido:objectWebResource lido:formatResource="text/html">https://www.irenaeuskraus.com/shop/zippel-bollmann/</lido:objectWebResource>
+                  </lido:object>
+               </lido:relatedWork>
+               <lido:relatedWorkRelType>
+                  <lido:term>im Zusammenhang mit dem Objekt</lido:term>
+               </lido:relatedWorkRelType>
+            </lido:relatedWorkSet>
+            <lido:relatedWorkSet>
+               <lido:relatedWork>
+                  <lido:object>
+                     <lido:objectWebResource lido:formatResource="text/html">https://en.wikipedia.org/wiki/Hermann_Zippel</lido:objectWebResource>
+                  </lido:object>
+               </lido:relatedWork>
+               <lido:relatedWorkRelType>
+                  <lido:term>im Zusammenhang mit dem Objekt</lido:term>
+               </lido:relatedWorkRelType>
+            </lido:relatedWorkSet>
+         </lido:relatedWorksWrap>
+      </lido:objectRelationWrap>
+   </lido:descriptiveMetadata>
+   <lido:administrativeMetadata xml:lang="de">
+      <lido:recordWrap>
+         <lido:recordID lido:source="naniweb"
+                        lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">463207</lido:recordID>
+         <lido:recordType>
+            <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://terminology.lido-schema.org/recordType/item-level_record</lido:conceptID>
+            <lido:term>Einzelobjekt</lido:term>
+            <lido:term xml:lang="en">item</lido:term>
+         </lido:recordType>
+         <lido:recordSource>
+            <lido:legalBodyName>
+               <lido:appellationValue>naniweb</lido:appellationValue>
+            </lido:legalBodyName>
+            <lido:legalBodyWeblink>https://naniweb.gbv.de</lido:legalBodyWeblink>
+         </lido:recordSource>
+         <lido:recordRights>
+            <lido:rightsType>
+               <lido:term>Verwertungsrecht</lido:term>
+            </lido:rightsType>
+            <lido:rightsHolder>
+               <lido:legalBodyName>
+                  <lido:appellationValue>Georg-August-Universität Göttingen</lido:appellationValue>
+               </lido:legalBodyName>
+            </lido:rightsHolder>
+         </lido:recordRights>
+         <lido:recordRights>
+            <lido:rightsType>
+               <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">https://creativecommons.org/publicdomain/zero/1.0/deed.de</lido:conceptID>
+               <lido:term>CC0 1.0 Universell (CC0 1.0)</lido:term>
+               <lido:term xml:lang="en">CC0 1.0 Universal (CC0 1.0)</lido:term>
+            </lido:rightsType>
+         </lido:recordRights>
+         <lido:recordInfoSet lido:type="http://terminology.lido-schema.org/lido00471">
+            <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/created">2020-02-14T16:53:36+01</lido:recordMetadataDate>
+            <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/modified">2020-09-02T15:27:03+02</lido:recordMetadataDate>
+         </lido:recordInfoSet>
+         <lido:recordInfoSet lido:type="http://terminology.lido-schema.org/lido00470">
+            <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/created">2020-09-21T11:28:53+02</lido:recordMetadataDate>
+         </lido:recordInfoSet>
+      </lido:recordWrap>
+      <lido:resourceWrap>
+         <lido:resourceSet lido:sortorder="1">
+            <lido:resourceID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier"
+                             lido:source="naniweb">record_naniweb_463207_media/record_naniweb_463207_18804.jpg</lido:resourceID>
+            <lido:resourceRepresentation lido:type="http://terminology.lido-schema.org/resourceRepresentation_type/provided_representation">
+               <lido:linkResource lido:formatResource="image/jpeg">https://sammlungen.uni-goettingen.de/rest/image/record_naniweb_463207/record_naniweb_463207_18804.jpg/full/full/0/default.jpg</lido:linkResource>
+               <lido:resourceMeasurementsSet>
+                  <lido:measurementType xml:lang="en">width</lido:measurementType>
+                  <lido:measurementUnit xml:lang="en">pixel</lido:measurementUnit>
+                  <lido:measurementValue>5384</lido:measurementValue>
+               </lido:resourceMeasurementsSet>
+               <lido:resourceMeasurementsSet>
+                  <lido:measurementType xml:lang="en">height</lido:measurementType>
+                  <lido:measurementUnit xml:lang="en">pixel</lido:measurementUnit>
+                  <lido:measurementValue>6752</lido:measurementValue>
+               </lido:resourceMeasurementsSet>
+            </lido:resourceRepresentation>
+            <lido:resourceRepresentation lido:type="http://terminology.lido-schema.org/resourceRepresentation_type/preview_representation">
+               <lido:linkResource lido:formatResource="image/jpeg">https://sammlungen.uni-goettingen.de/rest/image/record_naniweb_463207/record_naniweb_463207_18804.jpg/full/300,/0/default.jpg</lido:linkResource>
+               <lido:resourceMeasurementsSet>
+                  <lido:measurementType xml:lang="en">width</lido:measurementType>
+                  <lido:measurementUnit xml:lang="en">pixel</lido:measurementUnit>
+                  <lido:measurementValue>300</lido:measurementValue>
+               </lido:resourceMeasurementsSet>
+               <lido:resourceMeasurementsSet>
+                  <lido:measurementType xml:lang="en">height</lido:measurementType>
+                  <lido:measurementUnit xml:lang="en">pixel</lido:measurementUnit>
+                  <lido:measurementValue>376</lido:measurementValue>
+               </lido:resourceMeasurementsSet>
+            </lido:resourceRepresentation>
+            <lido:rightsResource>
+               <lido:rightsType>
+                  <lido:term>Verwertungsrecht</lido:term>
+               </lido:rightsType>
+               <lido:rightsHolder>
+                  <lido:legalBodyName>
+                     <lido:appellationValue>Georg-August-Universität Göttingen</lido:appellationValue>
+                  </lido:legalBodyName>
+               </lido:rightsHolder>
+            </lido:rightsResource>
+            <lido:rightsResource>
+               <lido:rightsType>
+                  <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">https://creativecommons.org/publicdomain/mark/1.0/deed.de</lido:conceptID>
+                  <lido:term>Public Domain Mark 1.0</lido:term>
+                  <lido:term xml:lang="en">Public Domain Mark 1.0</lido:term>
+               </lido:rightsType>
+            </lido:rightsResource>
+         </lido:resourceSet>
+         <lido:resourceSet>
+            <lido:resourceID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier"
+                             lido:source="naniweb">record_naniweb_463207_media/record_naniweb_463207_18806.jpg</lido:resourceID>
+            <lido:resourceRepresentation lido:type="http://terminology.lido-schema.org/resourceRepresentation_type/provided_representation">
+               <lido:linkResource lido:formatResource="image/jpeg">https://sammlungen.uni-goettingen.de/rest/image/record_naniweb_463207/record_naniweb_463207_18806.jpg/full/full/0/default.jpg</lido:linkResource>
+               <lido:resourceMeasurementsSet>
+                  <lido:measurementType xml:lang="en">width</lido:measurementType>
+                  <lido:measurementUnit xml:lang="en">pixel</lido:measurementUnit>
+                  <lido:measurementValue>5408</lido:measurementValue>
+               </lido:resourceMeasurementsSet>
+               <lido:resourceMeasurementsSet>
+                  <lido:measurementType xml:lang="en">height</lido:measurementType>
+                  <lido:measurementUnit xml:lang="en">pixel</lido:measurementUnit>
+                  <lido:measurementValue>6696</lido:measurementValue>
+               </lido:resourceMeasurementsSet>
+            </lido:resourceRepresentation>
+            <lido:resourceRepresentation lido:type="http://terminology.lido-schema.org/resourceRepresentation_type/preview_representation">
+               <lido:linkResource lido:formatResource="image/jpeg">https://sammlungen.uni-goettingen.de/rest/image/record_naniweb_463207/record_naniweb_463207_18806.jpg/full/300,/0/default.jpg</lido:linkResource>
+               <lido:resourceMeasurementsSet>
+                  <lido:measurementType xml:lang="en">width</lido:measurementType>
+                  <lido:measurementUnit xml:lang="en">pixel</lido:measurementUnit>
+                  <lido:measurementValue>300</lido:measurementValue>
+               </lido:resourceMeasurementsSet>
+               <lido:resourceMeasurementsSet>
+                  <lido:measurementType xml:lang="en">height</lido:measurementType>
+                  <lido:measurementUnit xml:lang="en">pixel</lido:measurementUnit>
+                  <lido:measurementValue>371</lido:measurementValue>
+               </lido:resourceMeasurementsSet>
+            </lido:resourceRepresentation>
+            <lido:rightsResource>
+               <lido:rightsType>
+                  <lido:term>Verwertungsrecht</lido:term>
+               </lido:rightsType>
+               <lido:rightsHolder>
+                  <lido:legalBodyName>
+                     <lido:appellationValue>Georg-August-Universität Göttingen</lido:appellationValue>
+                  </lido:legalBodyName>
+               </lido:rightsHolder>
+            </lido:rightsResource>
+            <lido:rightsResource>
+               <lido:rightsType>
+                  <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">https://creativecommons.org/publicdomain/mark/1.0/deed.de</lido:conceptID>
+                  <lido:term>Public Domain Mark 1.0</lido:term>
+                  <lido:term xml:lang="en">Public Domain Mark 1.0</lido:term>
+               </lido:rightsType>
+            </lido:rightsResource>
+         </lido:resourceSet>
+         <lido:resourceSet>
+            <lido:resourceID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier"
+                             lido:source="naniweb">record_naniweb_463207_media/record_naniweb_463207_18810.jpg</lido:resourceID>
+            <lido:resourceRepresentation lido:type="http://terminology.lido-schema.org/resourceRepresentation_type/provided_representation">
+               <lido:linkResource lido:formatResource="image/jpeg">https://sammlungen.uni-goettingen.de/rest/image/record_naniweb_463207/record_naniweb_463207_18810.jpg/full/full/0/default.jpg</lido:linkResource>
+               <lido:resourceMeasurementsSet>
+                  <lido:measurementType xml:lang="en">width</lido:measurementType>
+                  <lido:measurementUnit xml:lang="en">pixel</lido:measurementUnit>
+                  <lido:measurementValue>5792</lido:measurementValue>
+               </lido:resourceMeasurementsSet>
+               <lido:resourceMeasurementsSet>
+                  <lido:measurementType xml:lang="en">height</lido:measurementType>
+                  <lido:measurementUnit xml:lang="en">pixel</lido:measurementUnit>
+                  <lido:measurementValue>8688</lido:measurementValue>
+               </lido:resourceMeasurementsSet>
+            </lido:resourceRepresentation>
+            <lido:resourceRepresentation lido:type="http://terminology.lido-schema.org/resourceRepresentation_type/preview_representation">
+               <lido:linkResource lido:formatResource="image/jpeg">https://sammlungen.uni-goettingen.de/rest/image/record_naniweb_463207/record_naniweb_463207_18810.jpg/full/300,/0/default.jpg</lido:linkResource>
+               <lido:resourceMeasurementsSet>
+                  <lido:measurementType xml:lang="en">width</lido:measurementType>
+                  <lido:measurementUnit xml:lang="en">pixel</lido:measurementUnit>
+                  <lido:measurementValue>300</lido:measurementValue>
+               </lido:resourceMeasurementsSet>
+               <lido:resourceMeasurementsSet>
+                  <lido:measurementType xml:lang="en">height</lido:measurementType>
+                  <lido:measurementUnit xml:lang="en">pixel</lido:measurementUnit>
+                  <lido:measurementValue>450</lido:measurementValue>
+               </lido:resourceMeasurementsSet>
+            </lido:resourceRepresentation>
+            <lido:rightsResource>
+               <lido:rightsType>
+                  <lido:term>Verwertungsrecht</lido:term>
+               </lido:rightsType>
+               <lido:rightsHolder>
+                  <lido:legalBodyName>
+                     <lido:appellationValue>Georg-August-Universität Göttingen</lido:appellationValue>
+                  </lido:legalBodyName>
+               </lido:rightsHolder>
+            </lido:rightsResource>
+            <lido:rightsResource>
+               <lido:rightsType>
+                  <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">https://creativecommons.org/publicdomain/mark/1.0/deed.de</lido:conceptID>
+                  <lido:term>Public Domain Mark 1.0</lido:term>
+                  <lido:term xml:lang="en">Public Domain Mark 1.0</lido:term>
+               </lido:rightsType>
+            </lido:rightsResource>
+         </lido:resourceSet>
+      </lido:resourceWrap>
+   </lido:administrativeMetadata>
+</lido:lido>
