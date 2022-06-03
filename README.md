@@ -1,6 +1,6 @@
 # 02_xml-parsing-xpath-B
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ikyriazi/02_botanische_lehrtafeln/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ikyriazi/02_xml-parsing-xpath-B/HEAD)
 
 ### 01_xml-parsing-singlefile.ipynb
 
